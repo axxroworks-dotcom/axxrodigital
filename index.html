@@ -958,7 +958,8 @@ Today, we help startups, agencies, and growing brands build scalable AI-powered 
 
             try {
                 // Sending FULL history with system training
-                const response = await fetch('axai-axxro-bot.vercel.app', {
+                // Is line ko replace karein
+                const response = await fetch('https://axai-axxro-bot.vercel.app/chat', {
                     method: 'POST',
                     headers: {'Content-Type': 'application/json'},
                     body: JSON.stringify({ messages: chatHistory }) 
@@ -997,4 +998,5 @@ Today, we help startups, agencies, and growing brands build scalable AI-powered 
 
 
 </html>
+
 
